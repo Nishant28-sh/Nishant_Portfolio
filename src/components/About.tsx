@@ -84,15 +84,15 @@ const About = () => {
               className="space-y-6"
             >
               <p className="text-gray-300 leading-relaxed text-base md:text-lg">
-                Greetings! I am <span className="text-amber-400 font-semibold">Nishant Sharma</span>, a B.Tech Computer Science and Engineering student at KR Mangalam University, Haryana. Currently in my final year with a strong academic record and hands-on practical experience.
+                I'm <span className="text-amber-400 font-semibold">Nishant Sharma</span>, a pre final-year <span className="text-amber-400 font-semibold">B.Tech Computer Science and Engineering</span> student at <span className="text-amber-400 font-semibold">KR Mangalam University, Haryana</span>, with a strong academic background and hands-on project experience.
               </p>
 
               <p className="text-gray-300 leading-relaxed text-base md:text-lg">
-                I am a passionate <span className="text-amber-400 font-semibold">Full Stack Developer</span> skilled in building scalable web applications using <span className="text-amber-400 font-semibold">React.js</span>, <span className="text-amber-400 font-semibold">Node.js</span>, and <span className="text-amber-400 font-semibold">Spring Boot</span>. I have hands-on experience with REST APIs, real-time communication using Socket.io, user authentication, database integration, and cloud deployment on platforms like Vercel and Render.
+                I am a <span className="text-amber-400 font-semibold">Full Stack Developer</span> experienced in building scalable web applications using <span className="text-amber-400 font-semibold">React.js</span>, <span className="text-amber-400 font-semibold">Node.js</span>, and <span className="text-amber-400 font-semibold">Spring Boot</span>. I have worked on real-world projects involving RESTful APIs, real-time features using Socket.io, secure authentication, database integration, and cloud deployment on platforms like <span className="text-amber-400 font-semibold">Vercel</span> and <span className="text-amber-400 font-semibold">Render</span>.
               </p>
 
               <p className="text-gray-300 leading-relaxed text-base md:text-lg">
-                I believe in writing clean, maintainable code and creating impactful solutions that solve real-world problems. My passion lies in continuous learning, exploring emerging technologies, and contributing to innovative projects that make a meaningful difference. I'm eager to collaborate with teams that value creativity and technical excellence.
+                I focus on writing clean, maintainable code and enjoy solving practical problems through technology. I'm actively seeking opportunities where I can apply my skills, learn from experienced teams, and contribute to impactful software products.
               </p>
               
               {/* Skills Tags */}
