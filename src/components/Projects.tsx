@@ -5,7 +5,7 @@ import { useRef } from 'react';
 
 const projects = [
   {
-    number: '1 of 2',
+    number: '1 of 3',
     title: 'TradeTogether',
     description: 'A real-time barter platform enabling users to trade items with live chat and negotiation features. Built with modern web technologies using React, Node.js, and Socket.io for real-time communication. Cloud deployment on Render ensures reliability and scalability.',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&h=700&fit=crop',
@@ -20,7 +20,7 @@ const projects = [
     ]
   },
   {
-    number: '2 of 2',
+    number: '2 of 3',
     title: 'JobNest',
     description: 'A comprehensive job portal connecting recruiters with job seekers through role-based authentication and authorization. Features a robust system for job listings, applications, and recruiter management. Designed with scalability and security in mind for enterprise-level functionality.',
     image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&h=700&fit=crop',
@@ -32,6 +32,22 @@ const projects = [
       'Role-based authentication using JWT for secure access',
       'Designed login & authorization for recruiters & students',
       'Job listing and application management system'
+    ]
+  },
+  {
+    number: '3 of 3',
+    title: 'Personal Portfolio',
+    description: 'A modern and interactive portfolio website showcasing my projects, skills, and professional journey. Built with cutting-edge technologies including React, TypeScript, and Framer Motion for smooth animations. Features responsive design, custom cursor effects, and optimized performance.',
+    image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=1200&h=700&fit=crop',
+    github: 'https://github.com/Nishant28-sh/Nishant_Portfolio',
+    live: 'https://www.nishantsharmaa.in',
+    featured: true,
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+    features: [
+      'Smooth animations and transitions using Framer Motion',
+      'Custom cursor effects for enhanced user experience',
+      'Fully responsive design with modern UI components',
+      'SEO optimized with sitemap and robots.txt'
     ]
   }
 ];
