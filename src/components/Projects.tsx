@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt, FaStar } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { SiReact, SiNodedotjs, SiMongodb, SiSocketdotio, SiSpringboot } from 'react-icons/si';
 import { useRef } from 'react';
 
@@ -8,7 +8,7 @@ const projects = [
     number: '1 of 3',
     title: 'TradeTogether',
     description: 'A real-time barter platform enabling users to trade items with live chat and negotiation features. Built with modern web technologies using React, Node.js, and Socket.io for real-time communication. Cloud deployment on Render ensures reliability and scalability.',
-    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&h=700&fit=crop',
+    image: '/Tradetogether_img.png',
     github: 'https://github.com/Nishant28-sh/TradeTogether',
     live: 'https://tradetogether-frontend.onrender.com/',
     featured: true,
@@ -117,16 +117,6 @@ const Projects = () => {
                   className={`relative group ${index % 2 === 1 ? 'lg:order-2' : 'lg:order-1'}`}
                 >
                   <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-amber-400/20">
-                    {/* Featured Badge */}
-                    {project.featured && (
-                      <motion.div 
-                        className="absolute top-6 right-6 flex items-center gap-2 bg-amber-400/20 border border-amber-400/50 backdrop-blur-md px-5 py-2 rounded-full z-20"
-                      >
-                        <FaStar size={16} className="text-amber-400" />
-                        <span className="text-amber-400 text-sm font-bold uppercase tracking-wider">FEATURED</span>
-                      </motion.div>
-                    )}
-
                     <img 
                       src={project.image}
                       alt={project.title}
